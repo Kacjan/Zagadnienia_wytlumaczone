@@ -2,3 +2,8 @@
 14.05 wytłumaczone przestrzenie nazw, bulitin, kolejność poszukiwania zmiennych itd.
 
 LEGB stand for Local, Enclosing, Global, and Built-in
+
+o co chodzi z if __name__ == __main__
+
+ładowanie modułów i pakietów
+pakiety grupują moduły, moduły grupują kod
