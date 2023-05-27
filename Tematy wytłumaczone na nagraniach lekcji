@@ -7,3 +7,75 @@ o co chodzi z if __name__ == __main__
 
 ładowanie modułów i pakietów
 pakiety grupują moduły, moduły grupują kod
+
+
+---------------------------------------------------------------
+20.05 
+
+Czym jest algorytm
+Jak zapisać algorytm (słownie, punktami, pseudokodem, schematem blokowym)
+Rekurencja (jak działa, czemu zabiera pamięć, wspomaganie przez programowanie dynamiczne, zamiana w pętle)
+Złożoność obliczeniowa
+Intro do VSCode'a
+Metody naiwne (BogoSort, SelectionSort, InsertionSort, BubbleSort)
+Dziel i zwyciężaj (Merge... tbc)
+
+12:53 kod z wykresami po raz pierwszy
+
+13:25 - algorytmy brute force
+
+~ 15 porównywanie wydajności kodów na wykresali i w listach
+
+złożoność obliczeniowa i czasowa(chyba) ROZMOWA KWALIFIKACYJNA
+
+15:59 to ładnie przeglądał cos w debuggerze z ustawieniem watch. Na tyjm przykładzie łatwo zrozumieć debuggera w Visual Studio Code
+
+-----------------------------------------------------------------------
+21.05
+
+mergeSort
+quickSort
+counting sort
+binary search
+porównanie wydajności sortowania
+szybkie potęgowanie
+szybki Fibonacci
+zaczątek zachłannego rozwiązania problemu komiwojażera
+
+14:30 Matryce i fibonanci
+
+14:40 zadanie w codewars z encoderem liczb rzymskich
+
+14:55 powrót do fast Fibonacci
+
+15:10 komiwojażer
+
+
+27.05
+
+9:50 tłumaczenie komiwojażera od początku
+
+10: 28 jak przyśpieszyć komiwojażera za pomoca numpy
+
+10:38 tłumaczona nowsza wersja kodu komiwojażera
+
+10:40 tłumaczone tablice w numpy (taki mały wtręt)
+
+10:55 Metoda Monte Carlo
+
+11:40 tłymaczenie kodu do liczenia liczby PI netodą Monte Carlo
+
+11:50 Podejście gorliwe a leniwe
+
+12.23 struktury danych
+    - gdzie sa przechowywane dane w pamięci
+    NIE JEST TO JAWNIE PRAKTYCZNE, ALE WARTO WIEDZIEC ŻEBY MIEĆ POJĘCIE
+    
+FIFO i LIFO - ROZMOWA REKRUTACYJNA
+
+
+14.50 Listy linkowane zadanie
+15.11 rozpisanie listy linkowanej
+    
+
+
