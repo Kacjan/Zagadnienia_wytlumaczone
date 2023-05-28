@@ -77,5 +77,19 @@ FIFO i LIFO - ROZMOWA REKRUTACYJNA
 14.50 Listy linkowane zadanie
 15.11 rozpisanie listy linkowanej
     
+    
+    
+    
+    
+    28.05
+9:10 Tłumaczone kilka metod z biblioteki numpy
+9:30 wytłumaczenie funkcji hash
+
+    -Może służyć do porównywania kodu / danych. jeśli ja i ktoś wyhaszyją to samo to sa zbieżne.
+    -Jak loguję się gdizes to strona nie przechowuje haseł tyko hasze, jeśli hasz z hasła pasuje to nas wpuszcza.
+ 
+po haszowaniu zbiory
+
+
 
 
