@@ -77,8 +77,7 @@ FIFO i LIFO - ROZMOWA REKRUTACYJNA
 14.50 Listy linkowane zadanie
 15.11 rozpisanie listy linkowanej
     
-    
-    
+ 
     
     
     28.05
@@ -89,6 +88,32 @@ FIFO i LIFO - ROZMOWA REKRUTACYJNA
     -Jak loguję się gdizes to strona nie przechowuje haseł tyko hasze, jeśli hasz z hasła pasuje to nas wpuszcza.
  
 po haszowaniu zbiory
+
+10:03 strony z których "nie korzystać"  coś wspomniał o materiałach darmowych (chyba)
+
+10:15 Mapy wytłumaczone na przykładzie LISTY LINKOWANEJ
+
+10:40 KOPIEC
+
+11:10 sadanie stos
+
+11:30 Drzewa binarne BST - WAŻNE, BĘDZIE PRZY BAZACH DANYCH, TEGO SIĘ NAUCZ
+
+BFS I DFS
+
+12:30 kod BFS wytłumaczony
+
+12:40 co z BFs i DFS na rozmowie kwalifikacyjnej
+
+12:48 Tłumaczenie zadania Dijkstra
+13:00 Rozwiązanie Dijkstry
+
+a3:05 o co chodzi z numpy T (moje pytanie)
+
+13:10 zrobienie wykresu w 3D
+
+13:37 Tłumaczenie Dijkstry od początku do końca
+
 
 
 
