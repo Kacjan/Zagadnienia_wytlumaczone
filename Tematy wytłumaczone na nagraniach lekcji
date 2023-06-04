@@ -83,60 +83,59 @@ FIFO i LIFO - ROZMOWA REKRUTACYJNA
     28.05
 9:10 Tłumaczone kilka metod z biblioteki numpy
 9:30 wytłumaczenie funkcji hash
-
     -Może służyć do porównywania kodu / danych. jeśli ja i ktoś wyhaszyją to samo to sa zbieżne.
     -Jak loguję się gdizes to strona nie przechowuje haseł tyko hasze, jeśli hasz z hasła pasuje to nas wpuszcza.
- 
 po haszowaniu zbiory
-
 10:03 strony z których "nie korzystać"  coś wspomniał o materiałach darmowych (chyba)
-
 10:15 Mapy wytłumaczone na przykładzie LISTY LINKOWANEJ
-
 10:40 KOPIEC
-
 11:10 sadanie stos
-
 11:30 Drzewa binarne BST - WAŻNE, BĘDZIE PRZY BAZACH DANYCH, TEGO SIĘ NAUCZ
-
 BFS I DFS
-
 12:30 kod BFS wytłumaczony
-
 12:40 co z BFs i DFS na rozmowie kwalifikacyjnej
-
 12:48 Tłumaczenie zadania Dijkstra
 13:00 Rozwiązanie Dijkstry
-
 a3:05 o co chodzi z numpy T (moje pytanie)
-
 13:10 zrobienie wykresu w 3D
-
 13:37 Tłumaczenie Dijkstry od początku do końca
 
-
+------------------------------------------------------------------------------------------------------------------------------------------------
 
 03.06 
 
 10.43 SOLID
-
 12.50 tŁUMACZENIE WZORCÓW PROJEKTOEYCH NA ROZMOWĘ
-
- 
 14:04 factory
-
 14:50
 Wzorce strukturalne
-
 Adapter
-
 15.10
-
 Bridge
-
 Composite
-
 ~~ 15.40 Dekoratory
+
+
+04.06 Wzorce Programowania
+
+9:25 Flyweight
+fasada
+proxy
+10:20 Wzorce operacyjne
+10:30 command
+Chain of command
+11.28 Interpreter (Raczej temat akademicki, python sam interpretuje, przydałoby się jakbym pisał własny język programowania)
+Iterator
+około 13:00 memento (i dlaczego eval jest groźny)
+14:00 Obserwer
+State
+14.49 Strategy
+Template
+15.25 Wytłumaczone Zadanie z Template
+15:26 visitor
+
+
+
 
 
 
