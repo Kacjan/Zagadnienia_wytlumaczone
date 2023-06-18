@@ -1,0 +1,15 @@
+Spotify - baza utworów artystów i playlist (Kacper, Bartek, Maciej, Mateusz)
+
+max 5 tablic, np:
+  utwór
+  wykonawca
+  playlista
+  gatunek?
+  
+Co ma zawierać:
+    - relacja 1 do wielu
+    - coś jak koszyk w allegro ( wielu uzytkowników ma mieć w koszyku wiele przedmiotów z listy "produktów)
+    
+    - skrypt tworzenia bazy
+    - przykładowe dane do dodania
+    - jakiś join
