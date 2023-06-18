@@ -1,0 +1,83 @@
+select * from uzytkownik u ;
+
+insert into uzytkownik (id, email, haslo, imie, wiek)
+values (6, 'jozef2@wp.pl', 'kaszanka1234', 'jozif', 22);
+
+insert into uzytkownik (id, email, haslo, imie, wiek)
+values
+	(7, 'michal@wp.pl', 'kaszanka1234', 'michal', 33 ),
+	(8, 'karol@wp.pl', 'kaszanka1234', 'karol', 44 );
+	
+insert into uzytkownik (id, email, haslo, imie, wiek)
+select 9, u.email, u.haslo , u.imie , u.wiek
+from uzytkownik u where id = 2;
+
+select  * from uzytkownik u where id = 9;
+delete from uzytkownik where id = 9;
+
+
+select * from kategoria;
+
+insert into kategoria (id,nazwa,tylko_dla_doroslych)
+value
+(6,'Wycieczki', 0);
+
+-- USUWANIE DANYCH
+
+delete from kategoria where id = 6
+
+delete from uzytkownik where id = 4
+
+select * from koszyk k where  klient_id = 4;
+delete from koszyk  where klient_id = 4;
+delete delete from uzytkownik where id = 4;
+
+-- MODYFIKACJA DANYCH
+
+select * from uzytkownik u where u.id = 2;
+update uzytkownik
+set haslo = 'nowe_haslo_1234'
+where id = 2
+
+select * from kategoria k ;
+update kategoria set tylko_dla_doroslych = 1 where id = 2;
+
+select * from uzytkownik u;
+update uzytkownik
+set wiek = wiek + 1;
+
+update uzytkownik
+set wiek = length(imie) + 10;
+select * from oferta;
+select * from oferta where sklep_id =1;
+-- zmien cene kota na 200 w worku w sklepie #1
+-- to spowoduje powiekszenie cen wszystkich ofert w sklepie #1
+update oferta
+set cena = cena + 10000000
+where sklep_id = 1
+/*
+update oferta
+set cena = 200
+where id = 1 and  id = 2 --and nazwa = kot w worku
+*/
+update oferta
+set cena = 200
+where sklep_id = 1
+and nazwa = 'Kot w worku';
+update oferta set cena = 500 where sklep_id =1 and nazwa = "Kot w worku";
+update oferta set cena = 600 where id = 1;
+
+-- --------------------------------------------------
+
+select * from sklep s
+
+update sklep
+set pozytywy = pozytywy +1
+where id = 3;
+
+-- wylicz ranking dla wszystkich sklepow
+-- r = (pozytywy / wszystkie oceny) * 100
+update sklep set ranking = (pozytywy/(pozytywy+negatywy))*100;
+
+
+select * from sklep s 
