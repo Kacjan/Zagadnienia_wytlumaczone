@@ -1,0 +1,33 @@
+create database biblioteka;
+use biblioteka;
+create table ksiazka(
+	id int not null auto_increment primary key,
+	tytul varchar(100) not null,
+	liczba_stron smallint,
+	rodzaj_oprawy tinyint,
+	isbn varchar(30));
+
+create table autor (
+	id_autora int not null auto_increment primary key,
+	imie varchar(100),
+	nazwisko varchar(100),
+	narodowość varchar(100),
+	data_urodzenia date);
+
+drop table autor;
+
+select * from ksiazka;
+
+select * from autor;
+
+alter table ksiazka add column id_autora int;
+
+alter table ksiazka delete column id_autore;
+
+alter table ksiazka add constraint fk_autor_ksiazki foreign key (id_autora) references autor(id_autora);
+
+insert autor (imie,nazwisko,data_urodzenia)
+	values ('Ernest', "Hemingway", "1234-10-01");
+	
+insert ksiazka (tytul, liczba_stron, rodzaj_oprawy, isbn, id_autora)
+	values 
